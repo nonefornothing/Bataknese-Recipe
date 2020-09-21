@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf2e4;
+  font-family: sans-serif;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+h1 {
+  color: #d1633c;
+  font-size: 3em;
+  text-align: center;
+  font-family: sans-serif;
+  width: 100%;
+  background-color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #d1633c;
+  font-size: 2em;
+  text-align: center;
+  font-family: sans-serif;
+  width: 100%;
+  background-color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding: 5px 0;
+  background-color: #d1633c;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+#main-info {
+  background-color: #57b1dc;
+}
+
+#description {
+  text-align: left;
+  padding: 20px 5%;
+  font-size: 1.2em;
+}
+
+.main-ingredients,
+.side-ingredients,
+.how-to-cook {
+  text-align: left;
+  padding: 10px 5%;
+  background-color: azure;
+}
+
+ul > li,
+ol > li {
+  margin-left: 3%;
+}
+
+#back-to-index {
+  font-size: 2em;
+  text-decoration: none;
+  color: red;
+}

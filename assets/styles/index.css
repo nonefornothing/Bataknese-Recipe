@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf2e4;
+  margin: 0 10%;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 3px solid #57b1dc;
+  margin-top: 30px;
+}
+
+h2 {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 3.5em;
+  background-color: rgb(219, 219, 219);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #d1633c;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 2%;
+  grid-row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  padding: 20px 3%;
+  margin-top: 0;
+  height: 100%;
+  margin: 0;
+}
+
+p {
+  margin: 20px auto;
+  font-size: larger;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 1.4em;
+  text-align: center;
+}
+
+#Makanan {
+  margin-top: 4%;
+}
+
+#Minuman {
+  margin-top: 4%;
+}
+
+#Snack {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+h3 > a {
+  font-size: 80%;
+  text-decoration: none;
+  background-color: #d1633c;
+  display: block;
+  text-align: center;
+}
+
+img {
+  width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+a {
+  color: black;
+}
